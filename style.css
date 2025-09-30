@@ -56,3 +56,8 @@ h1, h2, h3, h4, h5, h6 {
   color: #000; /* Dark for current page */
   font-weight: bold;
 }
+
+.card-img-top {
+  height: 300px;
+  object-fit: cover;
+}
