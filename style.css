@@ -45,3 +45,14 @@ h1, h2, h3, h4, h5, h6 {
 #root, #__next {
   isolation: isolate;
 }
+
+/* Breadcrumbs custom style */
+.breadcrumb-item a {
+  color: grey;
+  text-decoration: none;
+}
+
+.breadcrumb-item.active {
+  color: #000; /* Dark for current page */
+  font-weight: bold;
+}
