@@ -60,13 +60,53 @@
         </div>
     </nav>
     <div class="container-fluid">
-    <ol class="breadcrumb bg-white p-2 rounded">
-      <li class="breadcrumb-item"><a href="#">Home</a></li>
-      <li class="breadcrumb-item"><a href="#">Toothbrushes</a></li>
-      <li class="breadcrumb-item active" aria-current="page">Humbel Brush Bamboo</li>
-    </ol>
-  </div>
+        <ol class="breadcrumb bg-white p-2 rounded">
+        <li class="breadcrumb-item"><a href="#">Home</a></li>
+        <li class="breadcrumb-item"><a href="#">Toothbrushes</a></li>
+        <li class="breadcrumb-item active" aria-current="page">Humbel Brush Bamboo</li>
+        </ol>
+    </div>
 
+    <!-- Banner after breadcrumb -->
+    <section class="page-banner bg-light p-5">
+    <div class="container text-center">
+        <h2 class="fw-normal fs-1">Shop environment <br>friendly quality goods</h2>
+    </div>
+    </section>
+
+    <!-- Pages Tab Section -->
+    <section class="page-tabs py-3">
+    <div class="container px-4 px-lg-5 d-flex justify-content-between align-items-center">
+        
+        <!-- Left side: Pages tabs (desktop only) -->
+        <div class="d-none d-lg-flex align-items-center gap-5">
+        <span class="fw-bold">All products</span>
+        <a href="#" class="text-decoration-none text-dark">Bamboo</a>
+        <a href="#" class="text-decoration-none text-dark">Plant Based</a>
+        <a href="#" class="text-decoration-none text-dark">Tooth Paste</a>
+        <a href="#" class="text-decoration-none text-dark">Floss</a>
+        </div>
+        
+        <!-- Right side: Filter dropdown -->
+        <div class="ms-auto">
+        <!-- Desktop dropdown -->
+        <select class="form-select form-select-sm d-none d-lg-block">
+            <option selected>Filter by</option>
+            <option value="1">Newest</option>
+            <option value="2">Popular</option>
+            <option value="3">Price Low to High</option>
+        </select>
+
+        <!-- Mobile dropdown (visible only on mobile) -->
+        <select class="form-select form-select-sm d-block d-lg-none" style="width: 150px;">
+            <option selected>Filter by</option>
+            <option value="1">Newest</option>
+            <option value="2">Popular</option>
+            <option value="3">Price Low to High</option>
+        </select>
+        </div>
+    </div>
+    </section>
      <!-- Bootstrap JS Bundle (with Popper) -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 </body>
